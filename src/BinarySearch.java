@@ -30,7 +30,7 @@ public class BinarySearch{
                 left = mid +1;
             }
 
-            //Si l'élément est plus grand, on ignore la moitié droite
+            //Si l'élément est plus petit, on ignore la moitié droite
             else{
                 right = mid - 1;
             }
